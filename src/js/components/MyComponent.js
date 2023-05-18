@@ -15,8 +15,8 @@ export default function BlindPrintingSpeedTest() {
 
   return  <>
             <h1 className="text-center">Тест скорости слепой печати</h1>
-            <p>{originalText}</p>
-            <p>Результат вводу тут:</p>
+            <p className="no-copy">{originalText}</p>
+            <p>Результат ввода:</p>
             <TextInput originalText={originalText}/>
           </>;
 };

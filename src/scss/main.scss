@@ -33,3 +33,9 @@ body {
 .incorrect {
   background-color: red;
 }
+
+.no-copy {
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  user-select: none; 
+}
