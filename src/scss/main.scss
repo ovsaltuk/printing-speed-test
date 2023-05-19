@@ -6,6 +6,16 @@ $border-color: #FFF;
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  
+}
+
+.wrapper {
+  padding-top: 50px;
+}
+
+.app__container {
+  padding: 30px;
+  border-radius: 20px;
   background-color: $bg-color;
 }
 
@@ -25,13 +35,6 @@ body {
   border-radius: 10px;
   outline: none;
   background-color: $bg-color;
-}
-
-.correct {
-  background-color: green;
-}
-.incorrect {
-  background-color: red;
 }
 
 .no-copy {
